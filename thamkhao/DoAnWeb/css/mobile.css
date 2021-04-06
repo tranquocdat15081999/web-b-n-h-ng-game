@@ -1,0 +1,21 @@
+@media only screen and (max-width:767px ) {
+	.col-10
+	{
+		width: 80%;
+	}
+	.responsive{
+		width: 50%;
+		/*height: 289px;*/
+	}
+	.responsive .gallery{
+		margin:0px;
+		height: auto;
+	}
+	.responsive .gallery img{
+		height: 200px !important;
+	}
+	.col-4{
+		width: 100%;
+		height: auto;
+	}
+}

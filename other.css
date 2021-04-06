@@ -1,0 +1,489 @@
+.img-res{
+    float: left;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 767px) {
+    hangtext{
+        display:none; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.inline{
+    display: inline;
+}
+#bar{
+    margin-left: -120px;
+    margin-top: 20px;
+    
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float:none;
+    width: 60%;
+    background: #f1f1f1;
+}
+form.example button {
+    float:none;
+    width: 40px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+form.example button:hover {
+    background: #0b7dda;
+}
+.cart{
+    float: right;
+    margin-top: -50px;
+    width: 12%;
+    background-color: crimson;
+}
+
+
+
+
+
+
+
+
+
+
+.btn-danger{
+    background-color:#3366cc ;
+    border:none;
+}
+.btn{
+    height: 50px;
+    font-weight: bold;
+}
+.me3{
+    width: 95%;
+    margin: auto;
+}
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 10px;
+    z-index: 5;
+}
+@media screen and (max-width: 767px) {
+    .me3{
+        display:none;
+    }
+}
+
+
+
+
+
+
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 6;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #00bfeb;
+    display: block;
+    transition: 0.5s;
+}
+
+.sidebar a:hover {
+    color:floralwhite;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 205px;
+    font-size: 30px;
+}
+
+.openbtn {
+    font-size: 15px;
+    cursor:pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    margin-top: -10px;
+    margin-left: -17px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+.mySlides {display: none;}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4.0s;
+  animation-name: fade;
+  animation-duration: 4.0s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.donghang{
+    background-color: #3366cc;
+    color: white;
+    width: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 25%;
+float: right;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;
+overflow: hidden;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.content a{
+    float: left;
+}
+.responsive{
+    width: 25%;
+    float: left;
+}
+.responsive .gallery{
+    text-align: center;
+    float: right;
+    margin: auto;
+	margin:10px;
+	/*transition: 0.8s;*/
+	height: 400px;
+	padding: 10px;
+}
+.responsive .gallery img{
+	width: 100%;
+	height: 245px;
+}
+.responsive .gallery:hover
+{
+	-webkit-box-shadow: -2px 2px 22px 0px rgba(109,117,114,1);
+	-moz-box-shadow: -2px 2px 22px 0px rgba(109,117,114,1);
+	box-shadow: -2px 2px 22px 0px rgba(109,117,114,1);
+}
+.whitebox{
+    background-color: floralwhite;
+}
+
+
+
+
+
+.cot1{
+    width: 20%;
+}
+.cot2{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title{
+    font-weight: bold;
+    font-size: 18px;
+}
+.price{
+    font-size: 15px;
+    padding: 15px;
+}
+.xemhang button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.xemhang button:hover{
+    opacity: 0.8;
+}
+.xemhangplus button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    margin-top: 10px;
+    color: darkgrey;
+    background-color: none;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.xemhangplus button:hover{
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu{
+    margin-top: -1330px;
+    margin-left: 10px;
+    
+}
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.menu ul li{
+    padding: 15px;
+    position: relative;
+    width: 180px;
+    vertical-align: middle;
+    background-color: #ffcc00;
+    color: black;
+    cursor: pointer;
+    border-top: 1px solid ;
+    -webkit-transition:all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.menu ul li:hover{
+    background-color: white;
+}
+.menu > ul > li{
+    border-right: 5px solid;
+}
+.menu ul ul{
+    transition: all 0.3s;
+    opacity: 0;
+    position: absolute;
+    border-left: 5px solid;
+    visibility: hidden;
+    left:100%;
+    top: -2%;
+}
+.menu ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+}
+.menu ul li a{
+    color: black;
+}
+.menu ul a li{
+    background-color: white;
+    color: black;
+}
+.menu ul a li:hover{
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width: 767px) {
+    .cot1{
+        display:none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-image: url(new-bg2.png); 
+    background-image: url(new-bg2.png),linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{ 
+	background-color: #333;
+    color: #3FF;
+	text-align:left;
+}
+footer .container{
+	text-align: center;
+}
+footer container {
+	text-align:left;
+}
+p{
+	text-align:left;
+}
+ul{
+	text-align:left
+}
+
+h4{
+  text-align:left;
+
+}

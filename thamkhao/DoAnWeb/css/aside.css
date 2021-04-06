@@ -1,0 +1,11 @@
+#aside a{
+	display: block;
+	line-height: 1.6;
+	text-decoration: none;
+	color:#fff;
+	text-align: center;
+	padding: 10px;
+}
+#aside{
+	background-color: #2455BA;	
+}

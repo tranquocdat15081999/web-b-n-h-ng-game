@@ -1,0 +1,99 @@
+
+
+
+
+
+
+
+
+main{
+    
+    padding-bottom: 1%;
+    margin-left:  2.5%;
+    margin-right: 2.5%;
+
+}
+
+
+
+
+
+
+
+.datlaicart button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 2.5%;
+    padding: 5px;
+    background-color: #04354c;
+    
+
+}
+.datlaicart button:hover{
+    color: white;
+    background-color:red;
+    border: 1px solid none;
+}
+
+
+
+
+.tuade
+{
+    margin-top: 0.7em;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 37px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 4px 2px #000000;
+}
+
+
+
+.hr hr{
+    border: 8px dotted #04354c;
+    border-style: none none dotted;
+}
+
+
+
+
+
+
+  
+
+
+  
+
+
+  
+
+  
+
+
+table,tr,th{
+    border: 4px solid  #04354c;
+    font-size: 20px;
+    text-align: left;
+    font-family:  'Montserrat', sans-serif;
+    margin:4px;
+    background-color: rgb(250, 247, 247);
+}
+tr:hover {
+    background-color:silver;
+}
+.text1 button:hover{
+    color: red;
+    background-color: white;
+    border: 1px solid none;
+
+}
+
+
+
+
+
+
+
+

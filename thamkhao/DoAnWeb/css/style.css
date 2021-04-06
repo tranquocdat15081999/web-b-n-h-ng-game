@@ -1,0 +1,208 @@
+/*Global*/
+*{
+	font-family:monospace;
+	font-family: cursive,Calibri,sans-serif;
+}
+header{
+	background-color: #189eff;
+	top: 0;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"]{
+	float: left;
+}
+img{
+	border: 0;
+}
+.row{
+	width: 100%;
+	display: block;
+}
+.row::after{
+	display: table;
+	content: "";
+	clear: both;
+}
+
+/*header*/
+header .container-header{
+	overflow: hidden;
+	width: 90%;
+	margin:auto;
+}
+header .container-header .branding{
+	float: left;
+	width: 20%;
+}
+header .container-header .search{
+	float: left;
+	width: 30%;
+	margin-top: 30px;
+}
+header .container-header .search input[type="text"]{
+	height: 30px;
+	border: 0;
+	
+	width: 70%;
+}
+header .container-header .search button{
+	height: 30px;
+	border: 0px;
+	padding: 0px 20px;
+}
+header .container-header .topnav{
+	float: left;
+	width: 50%;
+}
+header .container-header .topnav ul{
+	overflow: hidden;
+	padding:0;
+	list-style: none;
+	margin-top: 30px;
+}
+header .container-header .topnav ul li{
+	float: left;
+	overflow: hidden;
+	width: 25%;
+}
+header .container-header .topnav ul li a{
+	overflow: hidden;
+}
+header .container-header .topnav ul li i{
+	float: left;
+	padding-right: 5px;
+	color: #f9f9f9;
+	font-size: 30px;
+}
+header .container-header .topnav ul li label{
+	float: left;
+}
+header .container-header a{
+	color: #f9f9f9;
+}
+/*code for slide show */
+.adver .container{
+	margin:auto;
+}
+.adver .container img{
+	width: 100%;
+}
+/*code for adver*/
+.adver .col-10 > img{
+	width: 32%;
+}
+/*code for hide tab menu*/
+.clickButton{
+	display: none;
+}
+/*Code for product*/
+#content a{
+	float: left;
+}
+.listofbook .col-2 img{
+	width: 100%;
+}
+.listofbook .col-10{
+	overflow: hidden;
+}
+.responsive{
+	width: 25%;
+	float: left;
+}
+.responsive:hover{
+}
+.responsive .gallery{
+	margin:10px;
+	/*transition: 0.8s;*/
+	height: 400px;
+	padding: 10px;
+}
+.responsive .gallery:hover
+{
+	-webkit-box-shadow: -2px 2px 22px 0px rgba(109,117,114,1);
+	-moz-box-shadow: -2px 2px 22px 0px rgba(109,117,114,1);
+	box-shadow: -2px 2px 22px 0px rgba(109,117,114,1);
+}
+.responsive .gallery img{
+	width: 100%;
+	height: 250px;
+}
+.responsive .gallery .title{
+	font-size: 16px;
+	line-height: 1.8;
+	color: #242424;
+	text-align: left;
+}
+.responsive .gallery .author{
+	font-size: 13px;
+	line-height: 1.8;
+	color: #777;
+}
+.responsive .gallery .price{
+	color: blue;
+	font-size: 16px;
+	line-height: 1.8;
+}
+.responsive .gallery .price del{
+	color: red;
+}
+.overplay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+.overplay .text{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	background-color:#2F7FEC;
+	padding:5px 10px;
+	border-radius: 5px;
+}
+/*number of page*/
+#pageofbook {
+	text-align: center;
+}
+#pageofbook a{
+	padding: 10px;
+	background-color: #333;
+	color: white;
+	text-decoration: none;
+	border: #333;
+	margin:1px;
+}
+/** tua de */
+#tuade{
+	text-align: center;
+	background-color: #44C6EB;
+	padding: 5px;
+	border-radius: 10px;
+}
+/*footer*/
+footer{
+	margin-top: 10px;
+}
+footer .container{
+	text-align: center;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Twitter Bootstrap : Justified Button Groups</title>
+<link rel="stylesheet"
+      href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+<link rel="stylesheet"
+     href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+</head>
+<style>
+  .bootstrap-demo{margin:30px;}
+</style>
+<body>
+<div class="bootstrap-demo">
+ <div class="btn-group btn-group-justified"> 
+   <!-- justified button group using class btn-group-justified -->
+   
+      <a class="btn btn-info" role="button">Nokia</a>
+      <a class="btn btn-primary" role="button">Samsung</a>
+      <a class="btn btn-danger" role="button">Sony</a>
+ </div><br>
+ 
+ <div class="btn-group btn-group-justified"> 
+    <!--Justified button group 2 -->
+      <a class="btn btn-info" role="button">LG</a>
+      <a class="btn btn-primary" role="button">Motorola</a>
+      <div class="btn-group">
+      <a class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+          Apple <span class="caret"></span></a>
+      <ul class="dropdown-menu" role="menu">
+          <li><a href="#">Macbook Air</a></li>
+          <li><a href="#">iPhone</a></li>
+          <li><a href="#">iPad</a></li>
+          <li class="divider"></li>
+          <li><a href="#">iMac</a></li>
+      </ul>
+  </div>
+ </div>
+</div>
+</body>
+</html>
